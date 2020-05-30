@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import "../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import $ from 'jquery';
 import * as ScrollMagic from "scrollmagic"; 
+import gsap from "gsap";
 import { TweenMax, TimelineMax, Linear } from "gsap";
 import About from './components/About'
-// import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
  
-// ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
+ScrollMagicPluginGsap(ScrollMagic, gsap);
 
 var app = {
   controller: null,
