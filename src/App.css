@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+​/*
+#art-1 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/ocean.svg");
+  z-index: 1; }
+​
+#art-2 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/sun.svg");
+  z-index: 2; }
+​
+#art-3 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/sky.svg");
+  z-index: 3; }
+​
+#art-4 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/light-grass.svg");
+  z-index: 4; }
+​
+#art-5 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/dark-grass.svg");
+  z-index: 5; }
+​
+#art-6 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/atmosphere.svg");
+  z-index: 6; }
+​
+#art-7 {
+  background-image: url("https://rjafar-webapp.herokuapp.com/images/art/silhoette.svg");
+  z-index: 7; } */
+​
+#art-section {
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.art {
+  background-color: #F4EFEB;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.art--layer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  position: fixed; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#art-logo {
+  font-family: 'Indie Flower', cursive;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  opacity: 1;
+  height: 100%;
+  z-index: 6; }
+  #art-logo span {
+    z-index: 100;
+    font-size: 80px;
+    margin-bottom: 95px; }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.filler {
+  height: 100vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .filler img {
+    max-width: 50px; }
