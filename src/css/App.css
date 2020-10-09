@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+​
+#art-section {
+  display: block;
+}
+
+.art {
+  background-color: #F4EFEB;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1; }
+
+.art--layer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  position: fixed; }
+
+#art-logo {
+  font-family: 'Indie Flower', cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  height: 100%;
+  z-index: 6; }
+  #art-logo span {
+    z-index: 100;
+    font-size: 80px;
+    margin-bottom: 95px; }
+
+.filler {
+  height: 100vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
