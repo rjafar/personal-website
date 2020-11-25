@@ -5,24 +5,6 @@ import $ from "jquery";
 function Header() {
     // React hooks
     const [sidebarOpen, setSideBarOpen] = useState(true);
-    // const [navBackground, setNavBackground] = useState(false)
-    // const navRef = useRef()
-    // navRef.current = navBackground
-
-    // useEffect(() => {
-    //   const handleScroll = () => {
-    //     const show = window.scrollY > 810
-    //     if (navRef.current !== show) {
-    //       setNavBackground(show)
-    //     }
-    //   }
-    //   document.addEventListener('scroll', handleScroll)
-    //   return () => {
-    //     document.removeEventListener('scroll', handleScroll)
-    //   }
-    // }, [])
-    
-    // let color = navBackground ? 'transparent' : '#e6a7a7';
 
     $(document).ready(function() {
         $(window).scroll(function () { 
@@ -64,7 +46,7 @@ function Header() {
                                     <a className="nav-link" href="#about-section">ABOUT</a>
                                 </ul>
                                 <ul className="link nav-item">
-                                    <a className="nav-link" href="#work-section">WORK</a>
+                                    <a className="nav-link" href="#exp-section">EXPERIENCE</a>
                                 </ul>
                                 <ul className="link nav-item">
                                     <a className="nav-link" href="#projects-section">PROJECTS</a>

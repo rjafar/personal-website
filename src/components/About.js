@@ -2,8 +2,8 @@ import React from 'react';
 import '../css/About.css';
 
 function About() {
-    fetch('https://api.spotify.com/v1/playlists/713QzX1WmyymT8UO28mjrc')
-    .then(res => res.json())//response type
+    // fetch('https://api.spotify.com/v1/playlists/713QzX1WmyymT8UO28mjrc')
+    // .then(res => res.json())//response type
     // .then(data => console.log(data)); //log the data;
 
     // typing effect

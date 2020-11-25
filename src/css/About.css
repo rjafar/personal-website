@@ -8,6 +8,8 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    border-radius: 5%;
+    box-shadow: -20px 20px 0px 0px rgb(139 202 202 / 49%)
 }
 
 .about-container {
